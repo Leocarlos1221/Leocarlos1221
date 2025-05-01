@@ -1,10 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Carlos Merkabu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    img {
+      width: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+    .contact a {
+      color: blue;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hi, I'm Carlos Merkabu</h1>
-  <p>Welcome to my personal website. More updates coming soon!</p>
+  <header>
+    <h1>Carlos Merkabu</h1>
+    <p>Creative soul, dreamer, and explorer</p>
+  </header>
+
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm Carlos Merkabu. I'm passionate about creativity, learning new things, and expressing myself through tech and design.</p>
+    <img src="your-photo.jpg" alt="Carlos Merkabu" />
+    
+    <h2>What I Do</h2>
+    <p>I enjoy exploring music, technology, art, and connecting with people from around the world. I'm currently working on building my online presence and sharing my journey.</p>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>Follow me: Instagram | Twitter | TikTok</p>
+  </div>
 </body>
 </html>
